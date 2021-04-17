@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 import os
 import numpy as np
@@ -12,7 +14,7 @@ if __name__ == "__main__":
     # get heights in stdin seperated by whitespace
     heights = []
     for line in sys.stdin: # change to sys.stdin if reading lines
-        for height in line.split(" "):
+        for height in line.split(' '):
             try:
                 heights.append(int(height))
             except ValueError:
