@@ -1,0 +1,14 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-o",
+      "main.o",
+      "main.cpp"
+    ],
+    "directory": "/home/bastian/OpenData_Hackathon/point_to_lat",
+    "file": "/home/bastian/OpenData_Hackathon/point_to_lat/main.cpp",
+    "output": "/home/bastian/OpenData_Hackathon/point_to_lat/main.o"
+  }
+]
