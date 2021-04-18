@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 from geopy.geocoders import Nominatim
 # docs: https://geopy.readthedocs.io/en/stable/#module-geopy.geocoders
