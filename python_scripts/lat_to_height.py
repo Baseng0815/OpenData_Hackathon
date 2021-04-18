@@ -20,7 +20,7 @@ coords = []
 for line in sys.stdin:
     coords.append([float(x) for x in line.split(' ')])
 
-with open('height.hgt', 'rb') as file:
+with open('dataset/height.hgt', 'rb') as file:
     while True:
         higher  = file.read(1)
         lower   = file.read(1)
