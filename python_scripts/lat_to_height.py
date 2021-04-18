@@ -42,7 +42,7 @@ if len(coords) > 1:
         dx = (nx - cx)
         dy = (ny - cy)
 
-        steps = int(sqrt(dx * dx + dy + dy) * 0.5)
+        steps = int(sqrt(dx * dx + dy * dy) * 1)
         for i in range(steps):
             hgt = get_height(x, y)
             print(hgt, end = ' ')

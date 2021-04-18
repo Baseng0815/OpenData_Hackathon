@@ -1,0 +1,29 @@
+Thema
+Die Idee
+Motivation
+Umsetzung
+
+Datensatz ueberpruefen:
+-> 2d-Karte erstellen und mit Referenz vergleichen
+-> zusaetzlich 3d-visualizer, Beispiele mit Referenzpunkten zeigen
+=> sieht brauchbar aus
+
+Hoehenprofil-Pipeline:
+1.1 : Ort auf Karte auswaehlen ODER
+1.2 : Ort in Skript eingeben, wandelt Ort in lat/lon um
+2   : lat/lon von mehreren Orten wird in Liste von Hoehenwerten umgewandelt
+3   : Liste von Hoehenwerten wird durch matplotlib gejagt
+
+Erneute Fehlerueberpruefung:
+- Vergleich von bekannten Referenzhoehen zu unseren Werten
+-> alles falsch?? oh nein, ABER
+=> dummer Fehler im Parser
+
+Genauer Dateiaufbau (.hgt-Format):
+-> getrennt in mehrere Kacheln mit Groesse von 3601x3601 "Pixeln"
+-> jedes "Pixel" ist 1 Bogensekunde gross => Kachelgroesse von 1 Grad
+-> z.B. Kachel links unten N50E08 <-> rechts oben N51E09
+
+Ausgewaehlte Hoehenkarten vorstellen:
+-> minimalen Energieverbrauch analysieren
+-> Vergleich mit Karten von Google
