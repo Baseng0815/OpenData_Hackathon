@@ -45,7 +45,7 @@ if len(coords) > 1:
         steps = int(sqrt(dx * dx + dy * dy) * 1)
         for i in range(steps):
             hgt = get_height(x, y)
-            print(hgt, end = ' ')
+            print(hgt, end=' ')
 
             x = int(cx + (dx / steps) * i)
             y = int(cy + (dy / steps) * i)
@@ -53,3 +53,4 @@ if len(coords) > 1:
 elif len(coords) == 1:
     (x, y)  = map(coords[0][0], coords[0][1])
     hgt = get_height(x, y)
+    print(hgt, end=' ')
